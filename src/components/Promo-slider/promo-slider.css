@@ -1,0 +1,59 @@
+/* Slick slider modifiers */
+.promo-slider {
+  .slick-slider {
+    .slick-slide {
+      height: 100vh;
+      & > div {
+        height: 100%;
+      }
+    }
+  }
+}
+/*********************/
+
+.promo-slider {
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  &__item {
+    position: relative;
+    height: 100%;
+    &-img {
+      height: 100%;
+      margin-left: 200px;
+      @media (max-width: 1480px) {
+        margin-left: 100px;
+      }
+      @media (max-width: 1024px) {
+        margin: 0 auto;
+      }
+    }
+    &-title {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      max-width: 1530px;
+      padding: 0 20px;
+      font-weight: bold;
+      font-size: 450px;
+      color: #575153;
+      text-transform: uppercase;
+      transform: translate(-50%,-50%);
+      @media (max-width: 1480px) {
+        max-width: 1300px;
+        font-size: 350px;
+      }
+      @media (max-width: 1024px) {
+        max-width: 780px;
+        font-size: 250px;
+      }
+    }
+  }
+}

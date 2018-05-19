@@ -1,0 +1,123 @@
+.footer {
+  &__top {
+    padding: 60px 0;
+    background-color: #f8f8f8;
+    &-inner {
+      max-width: 1200px;
+      display: flex;
+      align-items: flex-start;
+    }
+  }
+  &__contacts {
+    &-title {
+      position: relative;
+      display: inline-block;
+      margin-bottom: 15px;
+      font-size: 13px;
+      line-height: 30px;
+      font-weight: 600;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #575153;
+      &:hover::before {
+        width: 100%;
+      }
+      &::before {
+        content: '';
+        position: absolute;
+        bottom: 5px;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background-color: currentColor;
+        transition: 0.2s;
+      }
+    }
+    &-row {
+      margin-bottom: 15px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+      &-text,
+      &-link {
+        display: inline-block;
+        font-size: 14px;
+        line-height: 20px;
+        text-decoration: none;
+        color: #727272;
+      }
+      &-link {
+        margin-left: 5px;
+      }
+    }
+  }
+  &__nav {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 960px;
+    width: 100%;
+    margin-right: 90px;
+    &-sub {
+      &-item {
+        &:first-child {
+          margin-bottom: 15px;
+          .footer__nav-sub-link {
+            font-size: 13px;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: #575153;
+            &::before {
+              height: 2px;
+            }
+          }
+        }
+      }
+      &-link {
+        position: relative;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 30px;
+        text-decoration: none;
+        color: #727272;
+        &:hover::before {
+          width: 100%;
+        }
+        &::before {
+          content: '';
+          position: absolute;
+          bottom: -2px;
+          left: 0;
+          width: 0;
+          height: 1px;
+          background-color: currentColor;
+          transition: 0.2s;
+        }
+      }
+    }
+  }
+  &__bottom {
+    padding: 15px 0;
+    background-color: #333333;
+    &-inner {
+      max-width: 1200px;
+      display: flex;
+      align-items: center;
+    }
+    &-left {
+      display: flex;
+      align-items: center;
+      margin-left: auto;
+    }
+  }
+  &__copyright,
+  &__develop,
+  &__design {
+    font-size: 13px;
+    line-height: 20px;
+    color: #777777;
+  }
+  &__develop {
+    margin-left: 35px;
+  }
+}
