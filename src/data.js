@@ -109,19 +109,19 @@ export const data = {
             "name": "<b>men’s</b> lookbook",
                 "description": "Lorem ipsum dolor sit amet eras facilisis consectetur adipiscing elit lor, integer lorem consecteur dignissim laciniqui. Elementum metus facilisis ut phasellu.",
                 "link": "#",
-                "piture": "..."
+                "picture": "/src/assets/img/books/img-1.png"
         },
         "1": {
             "name": "<b>women’s</b> lookbook",
                 "description": "Lorem ipsum dolor sit amet eras facilisis consectetur adipiscing elit lor, integer lorem consecteur dignissim laciniqui. Elementum metus facilisis ut phasellu.",
                 "link": "#",
-                "piture": "..."
+                "picture": "/src/assets/img/books/img-2.png"
         },
         "2": {
             "name": "<b>your</b> lookbook",
                 "description": "Lorem ipsum dolor sit amet eras facilisis consectetur adipiscing elit lor, integer lorem consecteur dignissim laciniqui. Elementum metus facilisis ut phasellu.",
                 "link": "#",
-                "piture": "..."
+                "picture": "/src/assets/img/books/img-3.png"
         }
     },
     "footer": {
