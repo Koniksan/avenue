@@ -2,13 +2,23 @@
   &__top {
     padding: 60px 0;
     background-color: #f8f8f8;
+    @media (max-width: 768px) {
+      padding: 30px 0;
+    }
     &-inner {
       max-width: 1200px;
       display: flex;
       align-items: flex-start;
+      @media (max-width: 768px) {
+        flex-wrap: wrap;
+      }
     }
   }
   &__contacts {
+    @media (max-width: 768px) {
+      width: 100%;
+      text-align: center;
+    }
     &-title {
       position: relative;
       display: inline-block;
@@ -32,9 +42,15 @@
         background-color: currentColor;
         transition: 0.2s;
       }
+      @media (max-width: 768px) {
+        margin-bottom: 5px;
+      }
     }
     &-row {
       margin-bottom: 15px;
+      @media (max-width: 768px) {
+        margin-bottom: 5px;
+      }
       &:last-child {
         margin-bottom: 0;
       }
@@ -58,10 +74,40 @@
     max-width: 960px;
     width: 100%;
     margin-right: 90px;
+    @media (max-width: 1024px) {
+      flex-wrap: wrap;
+      margin-right: 0;
+    }
+    @media (max-width: 768px) {
+      margin-bottom: 30px;
+    }
+    &-item {
+      width: 50%;
+      margin-bottom: 20px;
+
+      @media (min-width: 480px) {
+        /* Last 2 items */
+        &:nth-last-child(-n + 2) {
+          margin-bottom: 0;
+        }
+      }
+      @media (max-width: 768px) {
+        text-align: center;
+      }
+      @media (max-width: 480px) {
+        width: 100%;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
     &-sub {
       &-item {
         &:first-child {
           margin-bottom: 15px;
+          @media (max-width: 768px) {
+            margin-bottom: 5px;
+          }
           .footer__nav-sub-link {
             font-size: 13px;
             font-weight: 600;
@@ -103,11 +149,17 @@
       max-width: 1200px;
       display: flex;
       align-items: center;
+      @media (max-width: 768px) {
+        flex-direction: column;
+      }
     }
     &-left {
       display: flex;
       align-items: center;
       margin-left: auto;
+      @media (max-width: 768px) {
+        margin-left: 0;
+      }
     }
   }
   &__copyright,
@@ -119,5 +171,10 @@
   }
   &__develop {
     margin-left: 35px;
+  }
+  &__copyright {
+    @media (max-width: 768px) {
+      margin-bottom: 5px;
+    }
   }
 }
