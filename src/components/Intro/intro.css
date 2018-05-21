@@ -1,6 +1,7 @@
 .intro {
   position: relative;
   height: 100vh;
+  margin-bottom: 60px;
   background-color: #f8f8f8;
   &__inner {
     padding-top: 35px;

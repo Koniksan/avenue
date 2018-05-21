@@ -3,7 +3,6 @@ import ReactHtmlParser from 'react-html-parser';
 
 export default class BooksItem extends Component {
     render() {
-        console.log(this.props.picture);
         return (
             <li className='books__item'>
                 <div className="books__item-inner">

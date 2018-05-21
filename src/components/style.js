@@ -3,3 +3,4 @@ import './Navigation/navigation.css';
 import './Promo-slider/promo-slider.css';
 import './Footer/footer.css';
 import './Books/books.css';
+import './Gallery/gallery.css';

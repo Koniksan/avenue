@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 import Intro from './Intro';
 
 let root = document.getElementById('intro');

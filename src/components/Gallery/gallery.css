@@ -1,0 +1,120 @@
+.gallery {
+  &__inner {
+    padding: 50px 0;
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+  }
+  &__filter {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+    &-item {
+      margin-right: 50px;
+      font-size: 13px;
+      line-height: 20px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color: #727272;
+      transition: 0.2s;
+      cursor: pointer;
+      &:hover {
+        color: #00c8c8;
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 30px;
+    align-items: start;
+  }
+  &__item {
+    position: relative;
+    background-color: #f8f8f8;
+    transition: 0.3s;
+    transition-delay: 0.1s;
+    &:hover {
+      box-shadow: 0 3px 22px #A8A8A8;
+      .gallery__item-desc {
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+    &:nth-child(1),
+    &:nth-child(2),
+    &:nth-child(5),
+    &:nth-child(6) {
+      grid-column: span 2;
+      grid-row: span 1;
+      max-height: 500px;
+    }
+    &:nth-child(3),
+    &:nth-child(4) {
+      grid-column: span 4;
+      grid-row: span 2;
+      .gallery__item-img {
+        height: 700px;
+        @media (max-width: 1480px) {
+          height: auto;
+        }
+      }
+    }
+    &-price {
+      position: absolute;
+      left: 15px;
+      top: 15px;
+      &-current,
+      &-sale {
+        display: inline-block;
+        font-size: 21px;
+        font-weight: 300;
+        color: #9a9a9a;
+        sup {
+          display: inline-block;
+          margin-right: 2px;
+          font-size: 12px;
+          vertical-align: top;
+        }
+      }
+      &-sale {
+        margin-right: 10px;
+        text-decoration: line-through;
+      }
+    }
+    &-img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+    &-desc {
+      position: absolute;
+      left: 0;
+      top: 100%;
+      width: 100%;
+      padding: 20px 25px 60px;
+      background-color: #ffffff;
+      text-align: center;
+      transition: 0.3s;
+      box-shadow: 0 10px 22px #A8A8A8;
+      visibility: hidden;
+      opacity: 0;
+      z-index: 3;
+      &-title {
+        margin-bottom: 10px;
+        font-size: 13px;
+        line-height: 20px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #727272;
+      }
+      &-text {
+        font-size: 15px;
+        line-height: 21px;
+        color: #8e8c8c;
+      }
+    }
+  }
+}

@@ -40,23 +40,23 @@ export const data = {
         "filters": {
             "0": {
                 "name": "popular",
-                    "link": "filter_1"
+                    "link": "popular"
             },
             "1": {
                 "name": "new arrivals",
-                    "link": "filter_2"
+                    "link": "new"
             },
             "2": {
                 "name": "best sellers",
-                    "link": "filter_3"
+                    "link": "best_sellers"
             },
             "3": {
                 "name": "special offers",
-                    "link": "filter_4"
+                    "link": "special_offers"
             },
             "4": {
                 "name": "coming soon",
-                    "link": "filter_5"
+                    "link": "coming_soon"
             }
         },
         "goods": {
@@ -64,43 +64,49 @@ export const data = {
                 "name": "Womens burnt orange casual tee  £29.95",
                     "description": "Classic casual t-shirt for women on the move. 100% cotton.",
                     "price": "89.99",
-                    "picture": "...",
-                    "sale": null
+                    "picture": "/src/assets/img/gallery/photo.jpg",
+                    "sale": null,
+                    "filter_type": "coming_soon"
             },
             "1": {
                 "name": "Womens burnt orange casual tee  £29.95",
                     "description": null,
                     "price": "47.50",
-                    "picture": "...",
-                    "sale": null
+                    "picture": "/src/assets/img/gallery/photo-2.jpg",
+                    "sale": null,
+                    "filter_type": "new"
             },
             "2": {
                 "name": "Womens burnt orange casual tee  £29.95",
                     "description": "Classic casual t-shirt for women on the move. 100% cotton.",
                     "price": "107",
-                    "picture": "...",
-                    "sale": "89.99"
+                    "picture": "/src/assets/img/gallery/photo-3.jpg",
+                    "sale": "89.99",
+                    "filter_type": "special_offers"
             },
             "3": {
                 "name": "Womens burnt orange casual tee  £29.95",
                     "description": "Classic casual t-shirt for women on the move. 100% cotton.",
                     "price": "69.95",
-                    "picture": "...",
-                    "sale": null
+                    "picture": "/src/assets/img/gallery/photo-4.jpg",
+                    "sale": null,
+                    "filter_type": "best_sellers"
             },
             "4": {
                 "name": "Womens burnt orange casual tee  £29.95",
                     "description": "Classic casual t-shirt for women on the move. 100% cotton.",
                     "price": "29.95",
-                    "picture": "...",
-                    "sale": null
+                    "picture": "/src/assets/img/gallery/photo-5.jpg",
+                    "sale": null,
+                    "filter_type": "popular"
             },
             "5": {
                 "name": "Womens burnt orange casual tee  £29.95",
                     "description": "Classic casual t-shirt for women on the move. 100% cotton.",
                     "price": "37.79",
-                    "picture": "...",
-                    "sale": null
+                    "picture": "/src/assets/img/gallery/photo-6.jpg",
+                    "sale": null,
+                    "filter_type": "popular"
             }
         }
     },
