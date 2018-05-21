@@ -3,14 +3,23 @@
   height: 100vh;
   margin-bottom: 60px;
   background-color: #f8f8f8;
+  @media (max-width: 768px) {
+    margin-bottom: 30px;
+  }
   &__inner {
     padding-top: 35px;
+    @media (max-width: 768px) {
+      padding-top: 20px;
+    }
   }
   &__header {
     position: relative;
     display: flex;
     align-items: flex-end;
     z-index: 2;
+    @media (max-width: 1024px) {
+      align-items: center;
+    }
     &-title {
       font-size: 450px;
       font-weight: bold;
@@ -23,6 +32,9 @@
       text-decoration: none;
       text-transform: uppercase;
       letter-spacing: 1.2px;
+      @media (max-width: 768px) {
+        font-size: 14px;
+      }
       &-bold {
         font-weight: bold;
       }

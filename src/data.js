@@ -57,6 +57,10 @@ export const data = {
             "4": {
                 "name": "coming soon",
                     "link": "coming_soon"
+            },
+            "5": {
+                "name": 'all',
+                    "link": "all"
             }
         },
         "goods": {

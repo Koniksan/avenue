@@ -31,6 +31,10 @@
       @media (max-width: 1024px) {
         margin: 0 auto;
       }
+      @media (max-width: 768px) {
+        width: 100%;
+        object-fit: cover;
+      }
     }
     &-title {
       position: absolute;
@@ -53,6 +57,9 @@
       @media (max-width: 1024px) {
         max-width: 780px;
         font-size: 250px;
+      }
+      @media (max-width: 768px) {
+        font-size: 120px;
       }
     }
   }
