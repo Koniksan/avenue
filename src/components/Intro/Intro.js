@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import ReactDOM from 'react-dom';
 import { data } from '../../data';
 
 import Navigation from '../Navigation/Navigation';

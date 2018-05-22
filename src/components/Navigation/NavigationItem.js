@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-import NavigationItem from './NavigationItem';
-
 export default class Navigation extends Component {
     render() {
         return (

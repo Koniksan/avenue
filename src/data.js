@@ -27,11 +27,11 @@ export const data = {
     "intro": {
         "gallery": {
             "0": {
-                "picture": "/src/assets/img/promo-slider/img-1.jpg",
+                "picture": "./src/assets/img/promo-slider/img-1.jpg",
                     "title": "ave"
             },
             "1": {
-                "picture": "/src/assets/img/promo-slider/img-2.png",
+                "picture": "./src/assets/img/promo-slider/img-2.png",
                     "title": "fashion"
             }
         }
@@ -68,7 +68,7 @@ export const data = {
                 "name": "Womens burnt orange casual tee  £29.95",
                     "description": "Classic casual t-shirt for women on the move. 100% cotton.",
                     "price": "89.99",
-                    "picture": "/src/assets/img/gallery/photo.jpg",
+                    "picture": "./src/assets/img/gallery/photo.jpg",
                     "sale": null,
                     "filter_type": "coming_soon"
             },
@@ -76,7 +76,7 @@ export const data = {
                 "name": "Womens burnt orange casual tee  £29.95",
                     "description": null,
                     "price": "47.50",
-                    "picture": "/src/assets/img/gallery/photo-2.jpg",
+                    "picture": "./src/assets/img/gallery/photo-2.jpg",
                     "sale": null,
                     "filter_type": "new"
             },
@@ -84,7 +84,7 @@ export const data = {
                 "name": "Womens burnt orange casual tee  £29.95",
                     "description": "Classic casual t-shirt for women on the move. 100% cotton.",
                     "price": "107",
-                    "picture": "/src/assets/img/gallery/photo-3.jpg",
+                    "picture": "./src/assets/img/gallery/photo-3.jpg",
                     "sale": "89.99",
                     "filter_type": "special_offers"
             },
@@ -92,7 +92,7 @@ export const data = {
                 "name": "Womens burnt orange casual tee  £29.95",
                     "description": "Classic casual t-shirt for women on the move. 100% cotton.",
                     "price": "69.95",
-                    "picture": "/src/assets/img/gallery/photo-4.jpg",
+                    "picture": "./src/assets/img/gallery/photo-4.jpg",
                     "sale": null,
                     "filter_type": "best_sellers"
             },
@@ -100,7 +100,7 @@ export const data = {
                 "name": "Womens burnt orange casual tee  £29.95",
                     "description": "Classic casual t-shirt for women on the move. 100% cotton.",
                     "price": "29.95",
-                    "picture": "/src/assets/img/gallery/photo-5.jpg",
+                    "picture": "./src/assets/img/gallery/photo-5.jpg",
                     "sale": null,
                     "filter_type": "popular"
             },
@@ -108,7 +108,7 @@ export const data = {
                 "name": "Womens burnt orange casual tee  £29.95",
                     "description": "Classic casual t-shirt for women on the move. 100% cotton.",
                     "price": "37.79",
-                    "picture": "/src/assets/img/gallery/photo-6.jpg",
+                    "picture": "./src/assets/img/gallery/photo-6.jpg",
                     "sale": null,
                     "filter_type": "popular"
             }
@@ -119,19 +119,19 @@ export const data = {
             "name": "<b>men’s</b> lookbook",
                 "description": "Lorem ipsum dolor sit amet eras facilisis consectetur adipiscing elit lor, integer lorem consecteur dignissim laciniqui. Elementum metus facilisis ut phasellu.",
                 "link": "#",
-                "picture": "/src/assets/img/books/img-1.png"
+                "picture": "./src/assets/img/books/img-1.png"
         },
         "1": {
             "name": "<b>women’s</b> lookbook",
                 "description": "Lorem ipsum dolor sit amet eras facilisis consectetur adipiscing elit lor, integer lorem consecteur dignissim laciniqui. Elementum metus facilisis ut phasellu.",
                 "link": "#",
-                "picture": "/src/assets/img/books/img-2.png"
+                "picture": "./src/assets/img/books/img-2.png"
         },
         "2": {
             "name": "<b>your</b> lookbook",
                 "description": "Lorem ipsum dolor sit amet eras facilisis consectetur adipiscing elit lor, integer lorem consecteur dignissim laciniqui. Elementum metus facilisis ut phasellu.",
                 "link": "#",
-                "picture": "/src/assets/img/books/img-3.png"
+                "picture": "./src/assets/img/books/img-3.png"
         }
     },
     "footer": {
